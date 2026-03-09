@@ -7,8 +7,8 @@ export default defineConfig({
   name: 'default',
   title: 'erika-amelia',
 
-  projectId: 'fv6d0r23',
-  dataset: 'production',
+  projectId: process.env.SANITY_STUDIO_PROJECT_ID ?? '',
+  dataset: process.env.SANITY_STUDIO_DATASET ?? '',
 
   plugins: [structureTool(), visionTool()],
 
