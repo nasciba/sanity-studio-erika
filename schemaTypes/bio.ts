@@ -18,3 +18,16 @@ export const bioType = defineType({
     }),
   ],
 })
+
+export const backgroundImageType = defineType({
+  name: 'backgroundImage',
+  title: 'Imagem de Fundo Home',
+  type: 'image',
+  fields: [
+    defineField({
+      name: 'image',
+      title: 'Imagem',
+      type: 'image',
+    }),
+  ],
+})
