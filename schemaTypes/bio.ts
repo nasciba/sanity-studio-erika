@@ -19,6 +19,8 @@ export const bioType = defineType({
   ],
 })
 
+// test
+
 export const backgroundImageType = defineType({
   name: 'backgroundImage',
   title: 'Imagem de Fundo Home',
